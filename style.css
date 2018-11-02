@@ -1,0 +1,83 @@
+body{
+	font-family: arial;
+	background: #BDACB8;
+	text-align: center;
+	background-image: url("images/grills.jpeg");
+	background-position: center;
+	background-size: cover; 
+
+
+}
+
+
+
+
+
+h1{
+	color: white;
+	font-size: 40px;
+/*	background: #E9D2E2; */
+}
+
+p{
+	color: white;
+/*	background-image: url("images/grills.jpeg"); */ 
+	background-position: center;
+	background-size: cover; 
+}
+
+a{
+	text-decoration: none;
+
+
+}
+
+
+a:hover {
+	background: white;
+	cursor: pointer;
+	border-radius: 30px
+	padding:10px;
+}
+
+ul{
+	text-align: left;
+}
+p{border: 3px dotted red;
+padding :20px;
+margin : 30px;
+}
+
+img{
+	width: 600px;
+	}
+#tululu{
+height: 338px
+}
+}
+
+.box-black{
+background:rgba(255,255,255,0.5);
+padding:10px;
+margin:20px;
+}
+
+.box-red{
+background:#df8e5c;
+border-radius: 100px;
+margin:10px;
+}
+
+.box-yellow{
+background:#ff8426;
+border-radius: 100px;
+margin:10px;
+}
+
+.box-blue{
+background:#f26a01;
+border-radius: 100px;
+margin:10px;
+}
+
+
