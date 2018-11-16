@@ -1,37 +1,60 @@
 body{
 	font-family: arial;
-	background: #BDACB8;
 	text-align: center;
-	background-image: url("images/grills.jpeg");
+	background-image: url("images/gori.jpeg");
 	background-position: center;
 	background-size: cover; 
-
-
+	background-attachment:fixed;
 }
 
+.w3-content{position:relative;margin-top:0em;}
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
 
+.w3-content button {
+position: absolute;
+top: 32%;
+}
 
+.w3-display-right {right:0}
+.w3-display-left {left:0}
 
-
-h1{
+h1, h2, h3 {
 	color: white;
 	font-size: 40px;
-/*	background: #E9D2E2; */
+	font-family: 'Montserrat', sans-serif; 
+	margin: 80px;
+}
+
+#lesnews img {
+	width:300px;
+	height:300px;
+}
+
+#lesnews div {
+	width:300px;
+  vertical-align:top;
+  display:inline-block;
 }
 
 p{
 	color: white;
-/*	background-image: url("images/grills.jpeg"); */ 
 	background-position: center;
 	background-size: cover; 
 }
 
 a{
 	text-decoration: none;
+	margin : 05px
 
 
 }
 
+img
+{}
 
 a:hover {
 	background: white;
@@ -48,36 +71,39 @@ padding :20px;
 margin : 30px;
 }
 
-img{
-	width: 600px;
-	}
-#tululu{
-height: 338px
-}
+
+p{color: white;
+	border: 3px dotted red;
+    padding :20px;
+    margin : 30px;
 }
 
 .box-black{
-background:rgba(255,255,255,0.5);
-padding:10px;
-margin:20px;
+background: white;
+padding:300px;
+width:500px;
+position: absolute;
 }
 
 .box-red{
-background:#df8e5c;
-border-radius: 100px;
-margin:10px;
+background: white;
+height: : 100px;
+width:10px;
+position: absolute;
+right: 20px
 }
 
 .box-yellow{
-background:#ff8426;
+background: white;
 border-radius: 100px;
 margin:10px;
 }
 
 .box-blue{
-background:#f26a01;
+background: white;
 border-radius: 100px;
 margin:10px;
 }
+
 
 
